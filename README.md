@@ -3,9 +3,13 @@ SecureMessenger is a web-based secure messaging application inspired by Telegram
 
 ## 🚀 Features
 •	**Secret Chats**: True end-to-end encryption using Diffie-Hellman key exchange and AES-256-IGE. The server cannot read or decrypt any messages.
+
 •	**Cloud Chats**: Encrypted transport layer, server can decrypt and store messages for delivery across devices.
+
 •	**Forward Secrecy**: Implements automatic re-keying after 100 messages or 7 days for Secret Chats.
+
 •	**Real-Time Communication**: Built using WebSockets for live messaging.
+
 •	**In-Memory Message Queuing**: Messages are temporarily stored if the recipient is offline (no persistent storage).
 
 ## 🛠 Tech Stack
