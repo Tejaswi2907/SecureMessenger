@@ -14,19 +14,22 @@ SecureMessenger is a web-based secure messaging application inspired by Telegram
 •	**In-Memory Message Queuing**: Messages are temporarily stored if the recipient is offline (no persistent storage).
 
 ## 🛠 Tech Stack
-**Frontend:**
+
+### **Frontend:**
 
 •	HTML, TailwindCSS
 
 •	Vanilla JavaScript
-**Backend:**
+
+### **Backend:**
 
 •	Node.js with TypeScript
 
 •	ws (WebSocket library)
 
 •	crypto (built-in Node.js module for cryptography)
-**Cryptographic Components:**
+
+### **Cryptographic Components:**
 
 •	Diffie-Hellman key exchange
 
@@ -35,7 +38,8 @@ SecureMessenger is a web-based secure messaging application inspired by Telegram
 •	SHA-256-based Key Derivation Function (KDF)
 
 ## 🔐 Chat Modes Explained
-**Secret Chat**
+
+### **Secret Chat**
 
 •	Diffie-Hellman public key exchange
 
@@ -44,7 +48,8 @@ SecureMessenger is a web-based secure messaging application inspired by Telegram
 •	Messages encrypted with AES-IGE using derived key
 
 •	Server is unaware of message content
-**Cloud Chat**
+
+### **Cloud Chat**
 
 •	Auth key established via Diffie Hellman during login
 
@@ -65,6 +70,7 @@ SecureMessenger is a web-based secure messaging application inspired by Telegram
 4. **Open two browser tabs to simulate users**
 
 ## 📘 Notes
+
 •	No database is used — all message storage is ephemeral and in-memory.
 
 •	Keys and payloads are logged to console for debugging/demo purposes.
