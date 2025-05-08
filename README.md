@@ -36,14 +36,14 @@ SecureMessenger is a web-based secure messaging application inspired by Telegram
 1. **Clone the repo** and **cd SecureMessenger**
 
 2. **Install dependencies**
-**npm install
-**
-3.** Run the app**
+**npm install**
+
+3. **Run the app**
 **npm run dev**
 
-# 4. Open two browser tabs to simulate users
-________________________________________
-📘 Notes
+4. **Open two browser tabs to simulate users**
+
+## 📘 Notes
 •	No database is used — all message storage is ephemeral and in-memory.
 •	Keys and payloads are logged to console for debugging/demo purposes.
 
